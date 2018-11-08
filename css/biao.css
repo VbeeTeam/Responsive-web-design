@@ -1,0 +1,123 @@
+/*section*/
+.section_four{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tool_top{
+    height: 32px;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    overflow: hidden;
+    line-height: 32px;
+}
+.tool_top a{
+    padding: 20px;
+    border-right: 1px solid #cfcfcf;
+}
+.section_biao{
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    min-width: 570px;
+}
+.section_biao li:nth-child(2n+1){
+    background-color: #ebebeb;
+    width: 100%;
+}
+.section_biao li:nth-child(2n){
+    background-color: #fafafa;
+    width: 100%;
+}
+.section_biao li span{
+    padding: 10px 0px 10px 15px;
+    border-right: 1px dashed #b4b4b4;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.section_biao li span:nth-child(1){
+    width: 16%;
+}
+.section_biao li span:nth-child(2){
+    width: 26%;
+}
+.section_biao li span:nth-child(3){
+    width: 26%;
+}
+.section_biao li span:nth-child(4){
+    width: 16%;
+}
+.section_biao li span:nth-child(5){
+    width: 14%;
+    border-right: 0;
+}
+
+.section_biao2{
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    min-width: 570px;
+}
+.section_biao2 li input{
+    padding: 10px 0px 10px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.section_biao2 li span{
+    padding: 10px 0px 10px 15px;
+    border-right: 1px dashed #b4b4b4;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.section_biao2 li:nth-child(2n+1){
+    background-color: #ebebeb;
+    width: 100%;
+}
+.section_biao2 li:nth-child(2n){
+    background-color: #fafafa;
+    width: 100%;
+}
+.section_biao2 li input:nth-child(1){
+    width: 10%;
+}
+.section_biao2 li span:nth-child(2){
+    width: 14%;
+    border-left: 1px dashed #b4b4b4;
+}
+.section_biao2 li span:nth-child(3){
+    width: 24%;
+}
+.section_biao2 li span:nth-child(4){
+    width: 24%;
+}
+.section_biao2 li span:nth-child(5){
+    width: 14%;
+}
+.section_biao2 li span:nth-child(6){
+    width: 14%;
+    border-right: 0;
+}
+.default_chart{
+    padding: 10px;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    display: flex;
+    justify-content: space-between;
+}
+.default_bottom{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #bbbbbb;
+    background-color: #444444;
+}
+.default_bottom input{
+    outline: 0;
+    border: 1px solid #808080;
+    background-color: #c6d529;
+}
+.defaults{
+    border-top: 0;
+}

@@ -1,0 +1,51 @@
+/*section*/
+.section_chart{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.section_graphImg{
+    padding: 25px;
+    height: 265px;
+    border:1px solid #bcbcbc;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.section_pie{
+    margin-bottom: 40px;
+    display: flex;
+}
+.pie_left{
+    width: 50%;
+    margin-right: 40px;
+}
+.pieLeft_section{
+    border:1px solid #bcbcbc;
+    padding: 25px;
+    height: 265px;
+    background-color: #f8f8f8;
+}
+.pie_right{
+    width: 50%;
+}
+.pieRight_section{
+    border:1px solid #bcbcbc;
+    padding: 25px;
+    height: 265px;
+    background-color: #f8f8f8;
+}
+.pieRight_section img{
+    width: 100%;
+    height: 270px;
+}
+@media screen and (max-width: 690px){
+    .section_pie{
+        flex-direction: column;
+    }
+    .pie_left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .pie_right{
+        width: 100%;
+    }
+}

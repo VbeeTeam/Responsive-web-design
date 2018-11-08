@@ -1,0 +1,48 @@
+/*section*/
+.section_date {
+    margin-top: 20px;
+}
+.date_section{
+    padding: 25px;
+    border:1px solid #bcbcbc;
+    margin-bottom: 40px;
+}
+.date_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.date_btn1{
+    outline: 0;
+    border: 1px solid #b9bbbb;
+    border-radius:3px;
+    padding:8px;
+    font-size: 14px;
+}
+.date_btn2{
+    margin-left: 10px;
+}
+.date_top h4{
+    font-size: 26px;
+}
+.date_btn3{
+    outline: 0;
+    border: 1px solid #b9bbbb;
+    border-radius:3px;
+    font-size: 14px;
+    padding:5px;
+}
+
+table td{
+    position: relative;
+}
+table td span{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size: 16px;
+}
+.date_notd span{
+    color: gray;
+}
+
